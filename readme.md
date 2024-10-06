@@ -1,8 +1,7 @@
-
-Name:	Clinic Appointment Management Tool
+Name: Clinic Appointment Management Tool
 Team members: Serhii Lukianchuk, Adam Ashworth
 
-Description:	Tool that helps clerks in the clinic manage appointments for doctors.
+Description: Tool that helps clerks in the clinic manage appointments for doctors.
 Functionality:
 
 Log in/ Log out
