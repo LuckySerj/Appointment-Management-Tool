@@ -1,13 +1,97 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Appointment Management Tool</title>
-<script defer src="mainbd2dfa18f0ff4a675f0d.js"></script></head>
-<body>
-    <div class="container">
-        <h3>bla-bla-bla</h3>
-    </div>
-</body>
+  <script defer src="main8bacca5192cdc7eea23e.js"></script></head>
+  <body>
+ <!-- Header Block -->
+ <header class="header">
+  <h1 class="header__title">Appointment Manager</h1>
+  <button class="header__login-btn">Login</button>
+</header>
+
+<!-- Main Content Block -->
+  <main class="main-content">
+    <!-- Actions Bar Block -->
+    <section class="actions-bar">
+      <button class="actions-bar__schedule-btn">Schedule Appointment</button>
+      <div class="actions-bar__filters filters">
+        <select class="filters__select filters__select--doctor">
+          <option value="">Filter by Doctor</option>
+          <option value="dr-smith">Dr. Smith</option>
+          <option value="dr-jones">Dr. Jones</option>
+        </select>
+        <select class="filters__select filters__select--status">
+          <option value="">Filter by Status</option>
+          <option value="open">Open</option>
+          <option value="closed">Closed</option>
+        </select>
+        <select class="filters__select filters__select--urgency">
+          <option value="">Filter by Urgency</option>
+          <option value="high">High</option>
+          <option value="medium">Medium</option>
+          <option value="low">Low</option>
+        </select>
+      </div>
+    </section>
+
+    <!-- Appointments Grid Block -->
+    <section class="appointments-grid">
+      <!-- Single Appointment Card Block -->
+      <div class="appointment-card">
+        <div class="appointment-card__header">
+          <p class="appointment-card__patient-name">John Doe</p>
+          <p class="appointment-card__doctor">Dr. Smith</p>
+        </div>
+        <div class="appointment-card__body">
+          <p class="appointment-card__status">Status: Open</p>
+          <p class="appointment-card__urgency appointment-card__urgency--high">Urgency: High</p>
+          <p class="appointment-card__date">Date: 2024-10-07</p>
+        </div>
+        <div class="appointment-card__actions">
+          <button class="appointment-card__show-more">Show More</button>
+          <div class="appointment-card__details">
+            <p class="appointment-card__detail">Additional info about the appointment...</p>
+          </div>
+        </div>
+      </div>
+      <div class="appointment-card">
+        <div class="appointment-card__header">
+          <p class="appointment-card__patient-name">John Doe</p>
+          <p class="appointment-card__doctor">Dr. Smith</p>
+        </div>
+        <div class="appointment-card__body">
+          <p class="appointment-card__status">Status: Open</p>
+          <p class="appointment-card__urgency appointment-card__urgency--high">Urgency: High</p>
+          <p class="appointment-card__date">Date: 2024-10-07</p>
+        </div>
+        <div class="appointment-card__actions">
+          <button class="appointment-card__show-more">Show More</button>
+          <div class="appointment-card__details">
+            <p class="appointment-card__detail">Additional info about the appointment...</p>
+          </div>
+        </div>
+      </div>
+      <div class="appointment-card">
+        <div class="appointment-card__header">
+          <p class="appointment-card__patient-name">John Doe</p>
+          <p class="appointment-card__doctor">Dr. Jones</p>
+        </div>
+        <div class="appointment-card__body">
+          <p class="appointment-card__status">Status: Open</p>
+          <p class="appointment-card__urgency appointment-card__urgency--high">Urgency: High</p>
+          <p class="appointment-card__date">Date: 2024-10-07</p>
+        </div>
+        <div class="appointment-card__actions">
+          <button class="appointment-card__show-more">Show More</button>
+          <div class="appointment-card__details">
+            <p class="appointment-card__detail">Additional info about the appointment...</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  </body>
 </html>
