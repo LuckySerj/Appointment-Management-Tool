@@ -6,9 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "start": "npm-run-all --parallel dev api",
-    "dev": "webpack serve --open",
-    "api": "node server.js"
+    "dev": "npm-run-all --parallel dev api",
+    "front": "webpack serve --open",
+    "start": "json-server --watch db.json --port 3000"
   },
   "keywords": [],
   "author": "",
