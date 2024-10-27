@@ -1,4 +1,4 @@
-const apiBase = 'http://localhost:3000';
+const apiBase = 'https://appointment-management-tool.onrender.com';
 
 export const getUser = async () => {
   try {
