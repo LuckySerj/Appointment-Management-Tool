@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "dev": "npm-run-all --parallel dev api",
+    "dev": "npm-run-all --parallel dev start",
     "front": "webpack serve --open",
     "start": "json-server --watch db.json --port 3000"
   },
