@@ -12,21 +12,29 @@ module.exports = {
     clean: true,
     assetModuleFilename: '[name][ext]',
   },
-  devtool: 'source-map',
+  devtool: 'inline-source-map',
   devServer: {
     static: {
       directory: path.resolve(__dirname, 'dist'),
     },
-    port: 3000,
+    port: 8080,
     open: true,
     hot: true,
     compress: true,
     historyApiFallback: true,
+    proxy: [
+      {
+        context: ['/api'],
+        target: 'http://localhost:3000',
+        secure: false,
+        changeOrigin: true,
+      },
+    ],
   },
   module: {
     rules: [
       {
-        test: /\.scss$/,
+        test: /\.scss|css$/,
         use: ['style-loader', 'css-loader', 'sass-loader'],
       },
       {
@@ -40,8 +48,8 @@ module.exports = {
         },
       },
       {
-        test: /\.(png|svg|jpg|jpeg|gif)$/i,
-        type: 'assets/resource',
+        test: /\.(png|svg|jpg|jpeg|gif|webp)$/i,
+        type: 'asset/resource',
       },
     ],
   },

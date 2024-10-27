@@ -1,0 +1,100 @@
+.modal-open {
+    overflow: hidden;
+}
+.card-modal-content {
+    padding: 10px 50px;
+    border: 1px solid #006196;
+    border-radius: 10px;
+    font-weight: 500;
+    color: #006399;
+}
+.modal-header {
+    justify-content: space-between;
+}
+.card-modal-header,
+.card-modal-footer {
+    border: none;
+}
+.card-modal-header {
+    padding-bottom: 0;
+}
+.card-modal-title {
+    font-size: 30px;
+    color: #006196;
+}
+.modal-close-icon {
+    color: red;
+    font-size: 40px;
+    line-height: 18px;
+    display: block;
+    width: 25px;
+    height: 25px;
+}
+.verifyPassword {
+    color: red;
+}
+.card-modal {
+    display: block;
+}
+.card-modal__backdrop {
+    opacity: 0.5;
+}
+.card-login-form {
+    color: #006196;
+}
+.visit-modal .modal-dialog {
+    max-width: 400px;
+}
+.visit-modal--selected .modal-dialog {
+    max-width: 800px;
+}
+
+.visit-select {
+    margin: 0 auto;
+    margin-bottom: 40px;
+    max-width: 250px;
+    justify-content: center;
+    background-color: #d9e6ef;
+    border: 1px solid #006196;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.visit-form {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    column-gap: 15px;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.visit-form input,
+.visit-form-select,
+.card-login-input {
+    padding: 10px 10px;
+    border: 1px solid #006196;
+    border-radius: 10px;
+}
+
+.card-login-input {
+    border: 2px solid #006196;
+    border-radius: 10px;
+    background-color: #d9e6ef;
+}
+.visit-form-select {
+    background-color: #d9e6ef;
+    font-size: 14px;
+}
+.visit-btn--hidden {
+    display: none;
+}
+
+.visit-form-date {
+    background-color: #d9e6ef;
+}
+.visit-input--invalid {
+    border: 1px solid red;
+}

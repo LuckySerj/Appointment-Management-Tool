@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "dev": "webpack serve"
+    "start": "npm-run-all --parallel dev api",
+    "dev": "webpack serve --open",
+    "api": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +19,8 @@
     "babel-loader": "^9.2.1",
     "css-loader": "^7.1.2",
     "html-webpack-plugin": "^5.6.0",
+    "json-server": "^0.17.4",
+    "npm-run-all": "^4.1.5",
     "prettier": "3.3.3",
     "sass": "^1.79.4",
     "sass-loader": "^16.0.2",
@@ -24,5 +28,9 @@
     "webpack": "^5.95.0",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.1.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "sortablejs": "^1.15.3"
   }
 }

@@ -1,0 +1,73 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "user1",
+      "password": "password123"
+    },
+    {
+      "id": 2,
+      "username": "user2",
+      "password": "password456"
+    },
+    {
+      "username": "Serhii@wef",
+      "password": "12345",
+      "id": 3
+    },
+    {
+      "username": "John@wer",
+      "password": "123",
+      "id": 4
+    }
+  ],
+  "visits": [
+    {
+      "Target of visit:": "Consultation",
+      "Brief description of visit:": "Consultation",
+      "Date of visit:": "2024-10-28",
+      "Age:": "33",
+      "Full name:": "John Smith",
+      "Urgency:": "Urgent",
+      "Status:": "open",
+      "Doctor:": "Therapist",
+      "id": 1
+    },
+    {
+      "Target of visit:": "wevwevw",
+      "Brief description of visit:": "ADVWEVE",
+      "Date of visit:": "2024-11-08",
+      "Normal pressure:": "80",
+      "Body mass index:": "18",
+      "Transferred diseases of the cardiovascular system:": "dvev",
+      "Age:": "55",
+      "Full name:": "Jack Smith",
+      "Urgency:": "Ordinary",
+      "Status:": "open",
+      "Doctor:": "Cardiologist",
+      "id": 2
+    },
+    {
+      "Target of visit:": "Consultation",
+      "Brief description of visit:": "Consultation",
+      "Date of visit:": "2024-11-05",
+      "Date of last visit:": "2024-09-29",
+      "Full name:": "Samanta Adams",
+      "Urgency:": "Priority",
+      "Status:": "done",
+      "Doctor:": "Dentist",
+      "id": 3
+    },
+    {
+      "Target of visit:": "Consultation",
+      "Brief description of visit:": "Consultation",
+      "Date of visit:": "2024-10-28",
+      "Age:": "33",
+      "Full name:": "John Snow",
+      "Urgency:": "Urgent",
+      "Status:": "open",
+      "Doctor:": "Therapist",
+      "id": 4
+    }
+  ]
+}

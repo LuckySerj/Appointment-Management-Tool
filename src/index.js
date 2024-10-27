@@ -1,21 +1,9 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/main.scss';
 
-// script.js
-document.addEventListener('DOMContentLoaded', () => {
-  const showMoreButtons = document.querySelectorAll(
-    '.appointment-card__show-more',
-  );
+import Header from './components/header/header';
+import Filter from './components/filter/filter';
 
-  showMoreButtons.forEach((button) => {
-    button.addEventListener('click', (event) => {
-      const card = event.target.closest('.appointment-card');
-      card.classList.toggle('appointment-card--expanded');
-
-      if (card.classList.contains('appointment-card--expanded')) {
-        button.textContent = 'Show Less';
-      } else {
-        button.textContent = 'Show More';
-      }
-    });
-  });
-});
+const header = new Header();
+export { header };
+new Filter();
