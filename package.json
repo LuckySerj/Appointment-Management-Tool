@@ -8,7 +8,7 @@
     "build": "webpack",
     "dev": "npm-run-all --parallel front start",
     "front": "webpack serve --open",
-    "start": "json-server --watch db.json --port 3000"
+    "start": "npx json-server --watch db.json --port 3000"
   },
   "keywords": [],
   "author": "",
