@@ -28,6 +28,7 @@ You can schedule your visit for one of 3 available doctors:
 - Application supports archive of visits and you can filter by actual and done visits, by level priority and many other parameters.
 - It also supports drag & drop, so you can sort card as you wish in this session without any problem.
 - This app works with JSON-server and by click you can change data in database. JSON-server is deployed on render.com.
+  
 https://github.com/user-attachments/assets/22b28441-2bf4-4ded-8247-5b2726039cc8
 
 
