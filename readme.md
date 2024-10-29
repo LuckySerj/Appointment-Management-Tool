@@ -1,7 +1,21 @@
-Name: Clinic Appointment Management Tool
-Team members: Serhii Lukianchuk, Adam Ashworth
+### Clinic Appointment Management Tool 👩‍⚕🗓
 
-Description: Tool that helps clerks in the clinic manage appointments for doctors.
+#### HTML5, CSS3, JS(ES6), WEBPACK, JSON-SERVER
+
+Author: Serhii Lukianchuk
+[Live Demo](https://luckyserj.github.io/Appointment-Management-Tool/)
+
+### About the project 💻
+
+Appointment Management Tool – it's application for managing visits in the clinic.
+You can schedule your visit for one of 3 available doctors:
+
+- Therapist
+- Dentist
+- Cardiologist
+
+### For testing all possibilities of app, please sign in
+
 Functionality:
 
 Log in/ Log out

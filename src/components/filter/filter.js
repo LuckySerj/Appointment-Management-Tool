@@ -40,9 +40,9 @@ export default class Filter extends Element {
       `
       <select class="form-select form-select__filter form-select__filter--priority" aria-label="Default select example">
         <option selected>All</option>
-        <option value="high">High</option>
-        <option value="normal">Normal</option>
-        <option value="low">Low</option>
+        <option value="Urgent">High</option>
+        <option value="Priority">Normal</option>
+        <option value="Ordinary">Low</option>
       </select>
     `,
     );
