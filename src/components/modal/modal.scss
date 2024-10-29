@@ -69,6 +69,10 @@
     align-items: center;
     justify-content: center;
     font-size: 14px;
+
+    @media only screen and (max-width: 600px) {
+        grid-template-columns: none;
+    }
 }
 
 .visit-form input,

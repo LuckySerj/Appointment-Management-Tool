@@ -1,6 +1,7 @@
 .header {
     max-width: 1160px;
     margin: 0 auto;
+    padding: 10px;
     border: 2px solid $primary-color;
     border-radius: 10px;
     display: flex;
@@ -15,10 +16,23 @@
     padding: 20px;
   }
   
+  .btn__group {
+    display: flex;
+    justify-content: space-between;
+
+    @media only screen and (max-width: 600px) {
+      flex-direction: column;
+      align-content: center;
+    }
+  }
   .login-btn, .signIn-btn {
-    margin-right: 20px;
-    margin-left: 10px;
+    margin: 0 10px;
     background-color: #778899;
+    min-width: 100px;
+
+    @media only screen and (max-width: 600px) {
+      margin: 10px 0;
+    }
   }
   
   .visit__title {
@@ -31,8 +45,14 @@
   
   .add-visit-btn {
     background-color: #1f7a1f;
+    min-width: 100px;
+
+    &:hover {
+      background-color: #196619;
+    }
+
+    @media only screen and (max-width: 600px) {
+      margin: 10px 0;
+    }
   }
-  
-  .add-visit-btn:hover {
-    background-color: #196619;
-  }
+

@@ -12,6 +12,10 @@
   
   .filter > .input-group > .form-control, .input-group > .form-select {
     min-width: 400px;
+
+    @media only screen and (max-width: 600px) {
+      min-width: 0;
+    }
   }
   
   .filter__item {

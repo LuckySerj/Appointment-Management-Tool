@@ -1,24 +1,29 @@
 {
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "username": "user1",
       "password": "password123"
     },
     {
-      "id": 2,
+      "id": "2",
       "username": "user2",
       "password": "password456"
     },
     {
       "username": "Serhii@wef",
       "password": "12345",
-      "id": 3
+      "id": "3"
     },
     {
       "username": "John@wer",
       "password": "123",
-      "id": 4
+      "id": "4"
+    },
+    {
+      "id": "4153",
+      "username": "lukianchuk.s@gmail.com",
+      "password": "12345"
     }
   ],
   "visits": [
@@ -31,7 +36,7 @@
       "Urgency:": "Urgent",
       "Status:": "open",
       "Doctor:": "Therapist",
-      "id": 1
+      "id": "1"
     },
     {
       "Target of visit:": "wevwevw",
@@ -45,7 +50,7 @@
       "Urgency:": "Ordinary",
       "Status:": "open",
       "Doctor:": "Cardiologist",
-      "id": 2
+      "id": "2"
     },
     {
       "Target of visit:": "Consultation",
@@ -56,7 +61,7 @@
       "Urgency:": "Priority",
       "Status:": "done",
       "Doctor:": "Dentist",
-      "id": 3
+      "id": "3"
     },
     {
       "Target of visit:": "Consultation",
@@ -67,7 +72,7 @@
       "Urgency:": "Urgent",
       "Status:": "open",
       "Doctor:": "Therapist",
-      "id": 4
+      "id": "4"
     }
   ]
 }

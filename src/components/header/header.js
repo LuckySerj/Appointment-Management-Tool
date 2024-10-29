@@ -85,7 +85,7 @@ export default class Header extends Element {
       this.addVisitBtn = this.createElement(
         'button',
         ['btn', 'btn-success', 'add-visit-btn'],
-        'Add new visit',
+        'New visit',
       );
       this.loginBtn = this.createElement(
         'button',
@@ -94,7 +94,7 @@ export default class Header extends Element {
       );
       this.signInBtn = this.createElement(
         'button',
-        ['btn', 'btn-secondary', 'signIn-btn'],
+        ['btn', 'btn-secondary', 'signIn-btn', 'hide'],
         'Sign in',
       );
       btnContainer.append(this.addVisitBtn, this.loginBtn, this.signInBtn);
@@ -111,7 +111,7 @@ export default class Header extends Element {
       this.addVisitBtn = this.createElement(
         'button',
         ['btn', 'btn-success', 'add-visit-btn', 'hide'],
-        'Add new visit',
+        'New visit',
       );
       btnContainer.append(this.addVisitBtn);
       this.loginBtn = this.createElement(
@@ -175,9 +175,7 @@ export default class Header extends Element {
       this.renderUserName(email.value);
       this.loginBtn.innerText = 'Logout';
       this.addVisitBtn.classList.remove('hide');
-      if (this.signInBtn) {
-        this.signInBtn.classList.add('hide');
-      }
+      this.signInBtn.classList.add('hide');
       localStorage.setItem('isLogged', 'true');
       this.greetingText(this.userName);
       this.signInForm.hide();
